@@ -23,7 +23,7 @@ stages:
 - task: Docker@2
   inputs:
     containerRegistry: 'Devtst03 Docker Hub'
-    repository: 
+    repository: 'Sunmi'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
         tags: |
